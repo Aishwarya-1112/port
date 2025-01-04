@@ -1,38 +1,67 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Ysabeau+SC:wght@1..1000&display=swap");
 
-/* @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ysabeau+SC:wght@1..1000&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Ysabeau+SC:wght@1..1000&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  scroll-behavior: smooth;
 }
 
 .header {
-  display: grid;
-  grid-template-rows: 1fr auto;
   width: 100%;
   background: linear-gradient(to right, rgb(221, 213, 244), rgb(247, 174, 167));
   position: fixed;
-  height: 90px;
+  height: 70px;
+  text-align: end;
+  padding-bottom: 20px;
 }
+#home {
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+  padding-top: 7rem;
+  margin-bottom: 2rem;
+}
+
 .name {
-  grid-row: 1;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 40px;
-  padding-left: 20px;
-  color: rgb(6, 6, 6);
-  padding-top: 20px;
+  font-size: 60px;
+  padding: 30px 20px 0 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.role {
+  grid-column: 1;
+  padding-left: 30px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  gap: 20px;
+}
+.contact {
+  display: flex;
+  grid-column: 1;
+  padding-left: 30px;
+  gap: 40px;
+}
+img {
+  grid-column: 2;
+  width: 50%;
+  height: 80%;
+  border-radius: 50%;
+}
+.img {
+  padding-left: 40%;
+  margin-top: 2rem;
 }
 .nav-bar {
   grid-row: 1;
   padding-left: 40%;
   justify-content: center;
-  padding-top: 4%;
+  padding-top: 2%;
   align-items: center;
 }
 .nav-bar a {
-  padding: 15px 15px 0 20px;
+  padding: 20px 20px 20px 20px;
   text-decoration: none;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 25px;
@@ -45,22 +74,10 @@
   border-radius: 30px;
   padding-bottom: 5px;
   padding-top: 5px;
-}
-h1 {
-  display: flex;
-  justify-content: center;
-  font-family: "Courier New", Courier, monospace;
-  padding: 40px 30px;
-  padding-top: 10%;
-}
-.contact {
-  display: flex;
-  padding: 10px 15px;
-  gap: 25px;
-  justify-content: center;
+  padding: 10px 10px10px 10px;
 }
 .container {
-  background-color: seashell;
+  background-color: rgb(255, 255, 255);
 }
 .layout {
   display: grid;
