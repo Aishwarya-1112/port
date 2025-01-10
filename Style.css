@@ -84,16 +84,12 @@ h1 {
   width: 5rem;
   z-index: 1;
 }
-/* img {
-  padding-left: 70%;
-} */
 .nav-bar {
   display: flex;
   justify-content: left;
   align-items: center;
   position: sticky;
   top: 0px;
-  width: 100%;
   padding: 10px 200px;
   margin-top: 20px;
   background-color: #000;
@@ -119,6 +115,7 @@ h1 {
   padding: 120px;
   width: 80%;
   height: 50vh;
+  margin-top: 100px;
 }
 .container {
   background-color: rgb(3, 3, 3);
@@ -216,6 +213,9 @@ h3 {
     width: 3rem;
     margin-right: 10px;
     margin-top: 2.2rem;
+  }
+  .proimg {
+    display: none;
   }
   span {
     display: block;
