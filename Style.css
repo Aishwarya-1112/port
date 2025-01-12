@@ -134,23 +134,23 @@ h1 {
   width: 100%;
   height: 100%;
   gap: 20px;
-  padding-bottom: 40px;
+  padding: 40px 40px 20px 60px;
   color: rgb(255, 255, 255);
 }
 .hands-one {
   background-color: #222222;
   width: 100%;
-  height: 60%;
+  height: 100%;
   gap: 20px;
-  padding-bottom: 40px;
+  padding: 40px 40px 20px 60px;
   color: rgb(255, 255, 255);
 }
 .hands-two {
   background-color: #404042;
   width: 100%;
-  height: 60%;
+  height: 100%;
   gap: 20px;
-  padding-bottom: 40px;
+  padding: 40px 40px 20px 60px;
   color: rgb(255, 255, 255);
 }
 button {
@@ -172,9 +172,9 @@ button {
 .hands-three {
   background-color: #6e3f53;
   width: 100%;
-  height: 60%;
+  height: 100%;
   gap: 20px;
-  padding-bottom: 40px;
+  padding: 40px 40px 20px 60px;
   color: rgb(255, 255, 255);
 }
 .project1 {
