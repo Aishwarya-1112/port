@@ -177,12 +177,12 @@ button {
   padding: 40px 40px 20px 60px;
   color: rgb(255, 255, 255);
 }
-.project1 {
+/* .project1 {
   grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
   border: 1px solid black;
   gap: 20px;
   padding: 30px 10px;
-}
+} */
 li {
   font-family: "Noto Sans";
   font-weight: lighter;
