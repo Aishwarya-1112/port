@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Ysabeau+SC:wght@1..1000&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Cinzel:wght@400..900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Ysabeau+SC:wght@1..1000&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway:800&display=swap");
 
 * {
   margin: 0;
@@ -16,16 +17,7 @@
   padding-top: 50px;
   color: white;
 }
-.name h1 {
-  font-family: "Catamaran", serif;
-  font-size: 40px;
-  padding-top: 40px;
-}
-name::after {
-  left: -2px;
-  text-shadow: rgb(255, 105, 180) 3px 0px;
-  animation: 2s linear 0s infinite alternate-reverse none running noise-anim;
-}
+
 .project {
   padding-top: 30px;
 }
@@ -40,8 +32,13 @@ name::after {
   padding-left: 200px;
   padding-top: 20%;
   top: 0;
-  font-family: "Catamaran", serif;
+  font-weight: lighter;
   padding-bottom: 0;
+}
+name:hover {
+  background-color: palevioletred;
+  cursor: pointer;
+  transition-duration: 1s;
 }
 .role h1 {
   grid-column: 1;
@@ -59,9 +56,12 @@ name::after {
 }
 .skills-box {
   display: grid;
-  grid-template-columns: 3fr 3fr 3fr;
+  grid-template-columns: 3fr 3fr 3fr 3fr;
   padding: 40px;
-  gap: 50px;
+  gap: 30px;
+  background: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDN3azE3cnBqd2JraGJhdWVkZDg2bnM2ZTg4c2phM2kzdDFheDYzOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cJf3QB5FNCUNJlswau/giphy.gif")
+    repeat;
+  cursor: pointer;
 }
 .html {
   grid-column: 1;
@@ -73,11 +73,17 @@ name::after {
   justify-content: center;
   align-items: center;
 }
-.js {
+.bootstap {
   grid-column: 3;
   justify-content: center;
   align-items: center;
 }
+.js {
+  grid-column: 4;
+  justify-content: center;
+  align-items: center;
+}
+
 .header {
   display: flex;
   width: 7rem;
@@ -144,9 +150,11 @@ h1 {
   margin-top: 100px;
 }
 .container {
-  background-color: rgb(3, 3, 3);
+  /*  */
+  /* background: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExOW1xemoyMXA5OGc1NWI4NDhzNjFkaTN0azdzaTFocHp6aDFub3VxZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RHIKETUlUINYvV7CAO/giphy.gif"); */
   position: relative;
   overflow: visible;
+  background: #000;
 }
 .content {
   position: relative;
