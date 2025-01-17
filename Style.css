@@ -153,8 +153,8 @@ h1 {
   color: aliceblue;
   padding: 120px;
   width: 80%;
-  height: 50vh;
-  margin-top: 100px;
+  height: 55vh;
+  margin-top: 150px;
 }
 .container {
   /*  */
@@ -221,13 +221,9 @@ button {
   color: rgb(255, 255, 255);
 }
 .Experience {
-  background-image: radial-gradient(
-    circle 341px at 10% 20%,
-    rgba(132, 94, 194, 1) 0%,
-    rgba(196, 243, 251, 1) 90%
-  );
+  background: #000;
   padding: 60px;
-  font-size: 1.5rem;
+  font-size: 20px;
   color: rgba(0, 0, 0, 0.93);
 }
 h1:hover {
