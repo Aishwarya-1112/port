@@ -271,23 +271,24 @@ h3 {
 }
 @media screen and (max-width: 600px) {
   .burger-menu {
-    height: 3rem;
     width: 3rem;
-    margin-right: 10px;
-    margin-top: 2.2rem;
+    padding-right: 10px;
+    padding-top: 1.5rem;
+    background-color: #000;
   }
   .proimg {
     display: none;
   }
   .name {
-    font-size: 25px;
+    font-size: 16px;
     padding-left: 20px;
-    padding-top: 40%;
+    padding-top: 70%;
     top: 0;
+    display: inline-block;
     font-family: "Open Sans", serif;
   }
   .role h1 {
-    font-size: 20px;
+    font-size: 16px;
     padding-left: 20px;
     top: 0;
     font-family: "Open Sans", serif;
@@ -321,6 +322,9 @@ h3 {
     margin-left: 20px;
     padding-left: 20px;
     width: 100;
+  }
+  .imgdiv img {
+    display: none;
   }
   .about {
     color: aliceblue;
@@ -453,5 +457,14 @@ h3 {
   }
   .recent h1 {
     padding-left: 10px;
+  }
+  .contact {
+    display: flex;
+    align-items: center;
+    padding: 40px 20px 0px 20px;
+    color: aliceblue;
+    background-color: #000;
+    width: 100%;
+    z-index: 1;
   }
 }
